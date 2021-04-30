@@ -1,0 +1,858 @@
+body
+{
+    font-family: sans-serif;
+    margin:0;
+}
+/*--------hero-conatiner--------*/
+.hero-container
+{
+    background-color: #98FB98;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;  
+}
+.hero-description
+{
+    display:flex;
+    flex-direction: column;
+    padding:50px 0 0 0;
+}
+.arrow-progress
+{
+    display: flex;
+    flex-direction: row;
+    color:#FFFAF0;
+}
+i
+{
+    font-size:80px;
+    padding:65px 0 0 55px; 
+    margin:0 30px 0 0; 
+}
+.progress
+{
+    font-size:3em;
+    padding:28px 0 0 0;
+}
+.ways-to-track
+{
+    font-size:1.5em;
+    padding:0 0 0 55px; 
+    max-width:300px;
+    line-height: 1.6;
+    color:white;
+}
+.hero-image
+{
+    width:500px;
+    height:500px; 
+    padding:30px 0 0 0;
+}
+/*--------profile-track-communication-------*/
+.profile-track-communication 
+{
+    background-color:#FFFAFA;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.imgchat-profile
+{
+    width:400px;
+    height:600px; 
+    padding:70px 0 0 0;
+}
+/* .all 
+{
+    order:1;
+} */
+/* .track-project 
+{
+    float:left;
+} */
+/* .track-project 
+{
+    order:0;
+} */
+.track-project h3, .clear-communication h3, .estimate-approve-pay h3 
+{
+    font-size: 2.1em;
+    font-weight: bold;
+    padding:150px 0 0 0; 
+    line-height: 0%;
+}
+.track-project p, .clear-communication p, .estimate-approve-pay p, .flexible-platform p
+{
+    font-size:1.2em;
+    max-width:380px;
+    padding:0 0 20px 5px; 
+    color:#D3D3D3;
+    line-height:1.5; 
+}
+.estimate-approve-pay h3
+{
+    padding:50px 0 0 0;
+}
+.estimate-approve-pay p
+{
+    max-width:350px;
+    padding:0 0 20px 0;
+}
+.estimate-approve-pay-box-container
+{
+    display:flex;
+    flex-direction:row; 
+    background-color:#FFFAFA;
+}
+ .estimate-approve-pay
+{
+    padding:0 0 0 40px;
+} 
+/*--------box-container--------*/
+.box-container 
+{
+    border:1px solid lightgrey;
+    border-radius: 8px;
+    width:35%;
+    height:620px;
+    margin:0 0 0 190px;
+}
+.eurotech-motors-code, .preparation-address 
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.eurotech-motors h5, .preparer-name h5
+{
+    font-weight:bold;
+    font-size:0.8em;
+}
+.eurotech-motors p, .preparer-name p
+{
+    color: #D3D3D3;
+    max-width: 150px;
+    font-size:0.7em;
+}
+.estimate-progress-code p, .address p 
+{
+    font-size:0.7em;
+    padding:40px 0 0 0;
+}
+.address p 
+{
+  padding:0 0 0 50px;
+  font-weight:bold;
+}
+.address h5
+{
+    color: #D3D3D3;
+    padding:0 0 0 140px;
+}
+.table-container
+{
+    padding:0 0 0 40px;
+} 
+table
+{
+    width:100%;
+}
+th
+{
+    text-align: left;
+    color:#D3D3D3;
+    padding:0 0 10px 0;
+}
+td
+{
+    font-size:0.9em;
+}
+.subtotal, .tax, .total 
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+}
+.subtotal h5, .tax h5, .total h2
+{
+    color:#D3D3D3;
+    padding:0 100px 0 0;
+}
+.total h2
+{
+    padding:0 65px 0 0;
+}
+.subtotal p, .tax p, .total p
+{
+    padding:0 40px 0 0;
+}
+span
+{
+    color:green;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.btn-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.btn1, .btn2
+{
+    border:1px solid #98FB98; 
+    border-radius:25px;
+    padding:0 0 10px 0;
+    max-height:45px;
+    width:30%;
+    text-align:center; 
+    color:white;
+    background-color:#98FB98;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.btn2
+{
+    border:1px solid #A9A9A9;
+    background-color:#A9A9A9;
+}
+/*--------business-section--------*/
+.business-container, .flexible-platform, form
+{
+    background-color: #FDF5E6;
+}
+.business-heading 
+{
+    text-align: center;
+    font-size:3.5em;
+    font-weight: bold;
+    padding:50px 0 0 0;
+}
+.font-icon-profile
+{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+.font-icon-profile i
+{
+    font-size:5em;
+}
+.eye-handshake-bug-hammer, .laptop-leaf-setting-pen
+{
+    display:flex;
+    flex-direction: column;
+}
+.eye-handshake, .bug-hammer, .laptop-leaf, .setting-pen
+{
+    display:flex;
+    flex-direction: row;
+}
+.eye i, .laptop i
+{
+    color:red;
+}
+.handshake i, .leaf i
+{
+    color: lightgreen;
+}
+.bug i, .setting i 
+{
+    color:skyblue;
+}
+.hammer i, .pen i
+{
+    color:yellow;
+} 
+ .eye-handshake i, .laptop-leaf i
+{
+    padding:160px 0 0 50px;
+} 
+.business-image 
+{
+    width:300px;
+    height:480px;
+    padding:50px 0 0 0;
+}
+.flexible-platform h3
+{
+    padding:120px 0 20px 0;
+    font-size: 2em;
+    text-align:center;
+    margin:0;
+}
+.flexible-platform p 
+{
+    max-width:700px;
+    padding:0 0 0 330px; 
+    text-align: center;
+    margin:0; 
+}
+form
+{
+    height:12em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+label 
+{
+    position:relative;
+}
+input[type="text"], button
+{
+    font-size: 1em; 
+    border:none;
+    padding:0 15px;
+}
+input[type="text"]
+{
+ 
+    width:400px;
+    height:50px;
+    border-radius:18px 0 0 18px;
+}
+button
+{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color:#98FB98;
+    color:white;
+    border-radius:0 18px 18px 0;
+    letter-spacing: 1.2px;
+}
+footer
+{
+    color:white;
+}
+.footer-container 
+{
+    background-color:#98FB98;
+    text-align:center; 
+    font-size:1.5em;
+    margin:0;
+    padding:60px 0 50px 0;
+}
+.copy-right 
+{
+    background-color:#708090;
+    padding:30px 0 20px 100px;
+    margin:0; 
+}
+/*--------responsive laptop--------*/
+@media(max-width:1440px)
+{
+.estimate-approve-pay h3, .estimate-approve-pay p
+{
+   padding:0 0 0 20px;
+}
+.flexible-platform p 
+{
+    max-width:790px;
+}
+table 
+{
+    width:100%;
+    padding:0 0 0 10px;
+}
+}
+/*--------responsive laptop--------*/
+@media(max-width:1024px)
+{
+   .img1
+{
+    width:100%;
+    height:85%;
+} 
+.estimate-approve-pay h3
+{
+  padding:100px 0 0 0;
+}
+.estimate-approve-pay p 
+{
+    padding:0;
+}
+.subtotal h5
+{
+    padding:0 80px 0 0;
+}
+.tax h5 
+{
+    padding: 0 90px 0 0;
+} 
+ .total h2
+{
+    padding:0 50px 0 0;
+} 
+.subtotal p, .tax p, .total p
+{
+   padding:0 10px 0 0;
+   font-size:0.9em;
+}
+.flexible-platform h3
+{
+    padding:60px 0 20px 0;
+}
+.flexible-platform p 
+{
+    max-width:600px;
+    padding:0 0 0 200px;   
+}
+}
+/*--------responsive tab--------*/
+@media(max-width:768px)
+{
+    .hero-container
+{
+    background-color: #98FB98;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;  
+}
+i
+{
+    font-size:70px;
+}
+.progress
+{
+    font-size:2.7em;
+}
+.hero-image
+{
+    padding:30px 0 0 35px;
+} 
+.img 
+{
+    width:90%;
+    height:100%;
+}
+.track-project h3, .clear-communication h3, .estimate-approve-pay h3 
+{
+    font-size: 1.8em;
+}
+.estimate-approve-pay p 
+{
+    padding:0;
+}
+.box-container 
+{
+    
+    width:38%;
+    height:480px;
+    margin:0 0 0 40px;
+}
+.eurotech-motors h5, .preparer-name h5
+{
+    font-weight:bold;
+    font-size:0.6em;
+}
+.eurotech-motors p, .preparer-name p, .address h5
+{
+   
+     max-width: 100px;  
+    font-size:0.5em;
+}
+.estimate-progress-code p, .address p 
+{
+    font-size:0.5em;
+    padding:40px 0 0 0;
+}
+.preparer-name 
+{
+    padding:0 0 0 15px;
+}
+  .address p 
+{
+   padding:0 0 0 70px;
+   font-weight:bold;
+} 
+th, td
+{
+  font-size: 0.7em;
+}
+.subtotal h5, .tax h5, .total h2
+{
+   font-size:0.6em;
+}
+.subtotal h5
+{
+    padding:0 50px 0 0;
+}
+.tax h5 
+{
+    padding: 0 60px 0 0;
+} 
+ .total h2
+{
+    padding:0 35px 0 0;
+} 
+.subtotal p, .tax p, .total p
+{
+    padding:0 10px 0 0;
+    font-size:0.7em;
+}
+span
+{
+  font-size:1.3em;
+}
+.btn1, .btn2
+{
+    max-height:35px;
+    width:40%;
+    font-size: 0.9em; 
+}
+.business-heading 
+{
+    padding:50px 0 0 150px;
+    max-width:450px
+}
+.img2 
+{
+    width:100%;
+    height:105%;
+}
+.eye-handshake, .bug-hammer, .laptop-leaf, .setting-pen
+{
+    display:flex;
+    flex-direction: column;
+}
+.eye-handshake i, .laptop-leaf i
+{
+    padding:50px 0 0 50px;
+}
+/* .laptop-leaf-setting-pen:nth-child(1)
+{
+    order:2;
+}  */
+/* .laptop-leaf-setting-pen:nth-child(2) 
+{ 
+   order:1; 
+}
+.laptop-leaf-setting-pen:nth-child(3) 
+{
+     order:4; 
+}
+.laptop-leaf-setting-pen:nth-child(4)
+{
+     order:3; 
+} */
+.flexible-platform p 
+{
+    max-width:600px;
+    padding:0 0 0 80px;   
+}
+.copy-right 
+{
+   padding:30px 0 20px 20px; 
+}
+}
+/*--------responsive mobile--------*/
+@media(max-width:425px)
+{
+.hero-container
+{
+    display:flex;
+    flex-flow:row wrap; 
+}
+.hero-description
+{
+    padding:10px 0 0 0;
+}
+i
+{
+    font-size:70px;
+    padding:65px 0 0 30px; 
+}
+.progress
+{
+    font-size:3em;
+} 
+.ways-to-track
+{
+    padding:0 0 0 35px; 
+}
+.profile-track-communication
+{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+    align-items: center; 
+    padding:0 0 20px 65px;  
+}
+.imgchat-profile 
+{
+    order:2; 
+    padding:50px 0 0;  
+}
+.img1 
+{
+    width:85%;
+    height:80%;
+}
+.track-project h3 
+{
+     order:1;
+     padding:50px 0 0; 
+}
+.clear-communication h3 
+{
+    padding:0;
+}   
+.clear-communication  
+{
+     order:3;   
+}   
+.track-project p, .clear-communication p, .estimate-approve-pay p 
+{
+    max-width:300px;
+    text-align: center; 
+    padding:0 80px 0 10px;
+}
+.estimate-approve-pay h3 
+{
+    padding: 50px 0 0 20px;
+} 
+.estimate-approve-pay p 
+{
+    padding:0 0 20px 15px; 
+}
+.estimate-approve-pay-box-container
+{
+    display:flex;
+    flex-direction:column-reverse; 
+    background-color:#FFFAFA;
+} 
+.box-container 
+{
+    width:70%;
+    height:480px;
+    margin:0 0 0 65px;
+}
+.business-heading 
+{
+    font-size:2.5em;
+    padding:30px 0 0 10px;
+}
+.font-icon-profile i
+{
+    font-size:3em;
+}
+.img2 
+{
+    width:120%;
+    height:80%;
+}
+.bug-hammer, .setting-pen
+{
+    padding:0 0 0 25px;
+}
+.flexible-platform h3
+{
+    padding:0 0 20px;
+    font-size: 2em;
+}
+ .flexible-platform p 
+{
+    max-width:320px;
+    padding:0 0 0 50px;  
+}
+form
+{
+    height:8em;
+}
+input[type="text"], button
+{
+    font-size: 0.9em; 
+}
+input[type="text"]
+{
+    width:250px;
+    height:40px;
+}
+.footer-container 
+{
+    font-size:1.5em;
+    padding:60px 50px 50px 35px; 
+}
+.copy-right 
+{
+    padding:30px 0 20px 95px;
+} 
+}
+@media(max-width:375px)
+{
+.hero-description
+{
+    padding:20px 0 0 0; 
+}
+.hero-image
+{
+    width:300px;
+    height:400px;
+}
+.track-project h3, .clear-communication h3, .estimate-approve-pay h3 
+{
+    font-size: 1.6em;
+}
+.box-container 
+{
+    margin:0 0 0 55px;
+}
+.estimate-approve-pay h3 
+{
+    padding: 50px 0 0 10px;
+} 
+.estimate-approve-pay p 
+{
+     max-width: 250px; 
+     padding:0 0 20px 10px;  
+}  
+.business-heading 
+{
+    text-align: center;  
+    font-size:2.2em;
+    padding:30px 0 0;
+}
+.flexible-platform h3
+{
+  font-size: 1.8em;
+}
+.flexible-platform p 
+{    
+    padding:0 0 0 30px;   
+} 
+}
+@media(max-width:320px)
+{
+.hero-description
+{
+    padding:10px 0 0 0; 
+}
+i
+{
+    font-size:50px;
+}
+.progress
+{
+     font-size:2.5em;
+     padding:25px 0 0 0; 
+} 
+.ways-to-track
+{
+    max-width:250px;
+}
+.hero-image
+{
+    width:250px;
+}
+.img1 
+{
+    width:80%;
+    height:60%;
+}
+.track-project h3,.clear-communication h3, .estimate-approve-pay h3
+{
+    font-size: 1.3em;
+}
+.track-project h3
+{
+   padding: 50px 50px 0 0;
+}
+.clear-communication h3 
+{
+    padding:0 40px 0 0;
+}
+.track-project p, .clear-communication p, .estimate-approve-pay p, .flexible-platform p
+{
+     font-size:0.9em;
+     max-width:200px; 
+     padding:0 10px 20px 0;
+}
+.estimate-approve-pay h3 
+{
+    padding: 50px 0 0 0;
+} 
+.estimate-approve-pay p 
+{
+     max-width: 200px; 
+     padding:0 0 20px 0;  
+}  
+.box-container 
+{
+    width:75%;
+    margin:0 0 0 42px;
+}
+.business-heading 
+{
+    font-size:2em;
+    padding:30px 0 0;
+}
+
+/* .eye-handshake-bug-hammer, .laptop-leaf-setting-pen
+{
+    display:flex;
+    flex-direction: column;
+} */
+/* .eye-handshake, .bug-hammer, .laptop-leaf, .setting-pen
+{
+    display:flex;
+    flex-direction: row;
+} */
+/* .eye i, .laptop i
+{
+    color:red;
+} */
+/* .handshake i, .leaf i
+{
+    color: lightgreen;
+}
+.bug i, .setting i 
+{
+    color:skyblue;
+}
+.hammer i, .pen i
+{
+    color:yellow;
+}  */
+ /* .eye-handshake i, .laptop-leaf i
+{
+    padding:160px 0 0 50px;
+}  */
+/* .business-image 
+{
+    padding:50px 20px 0 0;
+} */
+.img2 
+{
+    width:200%;
+    height:80%;
+} 
+.flexible-platform h3
+{
+    font-size: 1.6em;
+}
+.flexible-platform p 
+{
+    padding:0 0 0 55px;   
+} 
+input[type="text"], button
+{
+    font-size: 0.7em; 
+}
+input[type="text"]
+{
+    width:200px;
+    height:35px;
+}
+.footer-container 
+{
+    font-size:1.2em;
+    padding:20px 50px 20px 35px; 
+}
+.copy-right 
+{
+padding:30px 0 20px 50px;
+} 
+}
